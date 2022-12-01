@@ -24,6 +24,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.mixpanel.android.mpmetrics.MixpanelNotificationRouteActivity"
+            android:exported="true" />
+
     </application>
 
 </manifest>
